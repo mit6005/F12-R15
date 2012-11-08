@@ -111,7 +111,7 @@ object SimpleEval {
         "(" ++ show(e1) ++ " " ++ show(op) ++ " " ++ show(e2) ++ ")"
     }
   }
-}
+
 
 /* I have defined some expressions here for your testing pleasure.  These should
    help you write less in the interpreter. */
@@ -129,4 +129,5 @@ object EvalTest {
   def sub(e1: IntExpr, e2: IntExpr) = IntBinop(Minus, e1, e2)
   def times(e1: IntExpr, e2: IntExpr) = IntBinop(Times, e1, e2)
   def div(e1: IntExpr, e2: IntExpr) = IntBinop(Div, e1, e2)
-}
+}	
+
